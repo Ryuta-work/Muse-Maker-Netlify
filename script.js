@@ -1,7 +1,9 @@
 window.addEventListener('load', () => {
 
+
+    const API_BASE_URL = 'https://d7f37136t4.execute-api.us-east-1.amazonaws.com/prod_3000'; 
     // ★★★ ご自身のAPI GatewayのURLに書き換えてください ★★★
-    const API_BASE_URL = 'https://d7f37136t4.execute-api.us-east-1.amazonaws.com/prod_3'; // 例
+    // const API_BASE_URL = 'https://d7f37136t4.execute-api.us-east-1.amazonaws.com/prod_3'; // これが本物
 
     const API_ENDPOINTS = {
         image: `${API_BASE_URL}/generate-image`,
